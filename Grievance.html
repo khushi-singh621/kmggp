@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet" /><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" referrerpolicy="no-referrer" rel="stylesheet" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div id="outer">
+<div class="college" style="border: 1px solid black;"><img height="70px" src="images/logo.jpg" style="position: relative; top: 30px; left: 200px;" />
+<h1 align="center" style="position: relative; bottom: 30px; font-family: initial; padding-left: 120px;"><b>KM MAYAWATI GOVT GIRLS POLYTECNIC BADALPUR</b></h1>
+</div>
+
+<div class="row py-1">
+  <div class="col-sm-12" style="background-color:  #3e6690;">
+    <nav class="navbar navbar-expand-lg"
+      style="background-color:  #3e6690;font-family:initial;font-weight: 900px;margin-left:185px; font-size: larger;">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  navbar-dark  me-auto mb-2 mb-lg-0">
+            <li class="nav-item h mx- p " style="background-color:  #3e6690;">
+              <a class="nav-link active p " aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item h  mx-4 p " style="background-color:  #3e6690;">
+              <a class="nav-link active p " href="scholarship.html">Scholarship</a>
+            </li>
+            <li class="nav-item h  mx-4 p" style="background-color:  #3e6690;">
+              <a class="nav-link active p" href="admission.html">Admission</a>
+            </li>
+            <li class="nav-item h  mx-4 p" style="background-color:  #3e6690;">
+              <a class="nav-link active p" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item h mx-4 p" style="background-color:  #3e6690;"></li>
+            <a class="nav-link active p" aria-current="page" href="faculty.html">Faculty</a>
+            </li>
+            <li class="nav-item h  mx-5 p" style="background-color:  #3e6690;">
+              <a class="nav-link active p" href="result.html">Result</a>
+            </li>
+            <li class="nav-item h  mx-4 p" style="background-color:  #3e6690;">
+              <a class="nav-link active p" href="facilities.html">Facilities</a>
+            </li>
+            <li class="nav-item h  mx-4 p" style="background-color:  #3e6690;">
+              <a class="nav-link active p" href="placement.html">Placement</a>
+            </li>
+            <li class="nav-item h  mx-4 p" style="background-color:  #3e6690;">
+              <a class="nav-link active p " href="Grievance.html">Grievance</a>
+            </li>
+          </li>
+          <li class="nav-item h  mx-4 p" style="background-color:  #3e6690;">
+            <a class="nav-link active p " href="contact.html">Contact</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+  </div><br>
+<br />
+
+<style>
+body {
+  background-color: rgb(249, 249, 249);
+}
+
+.container {
+  width: 800px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: rgb(57, 57, 164);
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(114, 194, 226);
+}
+</style>
+
+<body>
+
+<div class="container">
+  <h2>Grievance Submission Form</h2>
+  <form>
+    <label for="fname">Your Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Your name..">
+    
+    <label for="lname">Your Email:</label>
+    <input type="email" id="lname" name="lname" placeholder="Your email..">
+
+    <label for="subject">Subject of Grievance:</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject..">
+
+    <label for="subject">Description of Grievance:</label>
+    <textarea id="subject" name="subject" placeholder="Write your grievance here.."></textarea>
+
+    <input type="submit" value="Submit Grievance">
+</div>
+</body>
+</html>
